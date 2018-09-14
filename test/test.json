@@ -1,0 +1,6 @@
+{
+  "goodLogin":{"username": "wacsclient", "password": PASSWORD_REDACTED},
+  "badLogin": {"username": "wacsclient", "password": "badpassword"},
+  "endpoint":"http://localhost:3000/api/v1",
+  "tokenName":"wacs_client_int_test"
+}

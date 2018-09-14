@@ -1,0 +1,44 @@
+{
+  "name": "wacs-client",
+  "version": "0.1.0",
+  "description": "WACS/Door43/Gitea import and export for Bible translations.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "prepublishOnly": "npm run build",
+    "test": "mocha --require source-map-support/register --require @babel/register",
+    "testdebug": "mocha debug --require source-map-support/register --require @babel/register"
+  },
+  "keywords": [],
+  "author": "Russell Aunger",
+  "license": "MIT",
+  "private": true,
+  "babel": {
+    "sourceMaps": "inline",
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "8.9.3",
+            "electron": "2.0.8"
+          }
+        }
+      ]
+    ]
+  },
+  "dependencies": {
+    "nodegit": "0.22.2",
+    "gogs-client": "0.5.2",
+    "tmp": "0.0.33"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/cli": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "source-map-support": "^0.5.9"
+  }
+}
