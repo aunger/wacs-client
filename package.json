@@ -12,7 +12,7 @@
   "keywords": [],
   "author": "Russell Aunger",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "babel": {
     "sourceMaps": "inline",
     "presets": [
@@ -28,8 +28,8 @@
     ]
   },
   "dependencies": {
-    "nodegit": "0.22.2",
     "gogs-client": "0.5.2",
+    "nodegit": "0.22.2",
     "tmp": "0.0.33"
   },
   "devDependencies": {
