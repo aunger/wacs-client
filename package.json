@@ -1,6 +1,6 @@
 {
   "name": "wacs-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "WACS/Door43/Gitea import and export for Bible translations.",
   "main": "lib/index.js",
   "scripts": {
