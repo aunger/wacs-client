@@ -1,6 +1,6 @@
 {
   "name": "wacs-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "WACS/Door43/Gitea import and export for Bible translations.",
   "main": "lib/index.js",
   "scripts": {
@@ -21,7 +21,7 @@
         {
           "targets": {
             "node": "8.9.3",
-            "electron": "2.0.8"
+            "electron": "2.0.10"
           }
         }
       ]
@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "gogs-client": "0.5.2",
-    "nodegit": "0.22.2",
+    "nodegit": "0.23.0",
     "tmp": "0.0.33"
   },
   "devDependencies": {
