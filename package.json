@@ -29,14 +29,14 @@
   },
   "dependencies": {
     "gogs-client": "0.5.2",
-    "nodegit": "0.23.0",
+    "nodegit": "^0.24.3",
     "tmp": "0.0.33"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.0",
-    "@babel/cli": "^7.1.0",
-    "@babel/preset-env": "^7.1.0",
-    "@babel/register": "^7.0.0",
+    "@babel/core": "^7.4.0",
+    "@babel/cli": "^7.4.0",
+    "@babel/preset-env": "^7.4.0",
+    "@babel/register": "^7.4.0",
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
     "source-map-support": "^0.5.9"
